@@ -17,5 +17,5 @@ client_secret = ''
 
 3. In a terminal window, navigate to the folder containing the script file. Run the script. ([Download Python](https://www.anaconda.com/download/#macos) if you don't already have it.) 
 ``` Bash
-python3 playlistDataToCsv.py
+python3 spotify_playlist_to_csv.py
 ```
