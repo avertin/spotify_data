@@ -11,8 +11,11 @@ filename = "default.csv"
 
 2. Follow instructions from Spotify to [create a developer application](https://developer.spotify.com/my-applications/#!/). After creating a develoepr application, add the client id and secret to the script.
 ``` Python
-client_id = ""
-client_secret = ""
+client_id = ''
+client_secret = ''
 ```
 
-3. Run the script. [Download Python](https://www.anaconda.com/download/#macos) if you don't already have it.
+3. In a terminal window, navigate to the folder containing the script file. Run the script. ([Download Python](https://www.anaconda.com/download/#macos) if you don't already have it.) 
+``` Bash
+python3 playlistDataToCsv.py
+```
