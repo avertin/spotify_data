@@ -3,7 +3,7 @@ Python script to get data from the Spotify API.
 
 ## Instructions
 
-1. Add usernames to the array and set your desired filename.
+1. Add usernames to the array and set your desired filename. If you signed up for Spotify with Facebook, your username is a little tricky to find. On your profile page in the desktop application, click on the '...' menu next to your profile picture.  Select the 'Copy Spotify URI' and paste it somewhere. Your username is the series of numbers. 
 ``` Python
 usernames = ['']
 filename = "default.csv"
