@@ -26,6 +26,7 @@ def get_tracks_data(tracks, playlist, username):
 
         track = item['track']
         playlist_entry['track_title'] = track['name']
+        playlist_entry['track_id'] = track['id']
         playlist_entry['artist'] = track['artists'][0]['name']
         playlist_entry['duration_ms'] = track['duration_ms']
         playlist_entry['popularity'] = track['popularity']
