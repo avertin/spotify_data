@@ -56,7 +56,7 @@ def get_tracks_data(tracks, playlist, username):
 
 def add_user_playlist(username):
     with open(filename, 'a') as f:
-        fieldnames = ['playlist_name', 'username', 'track_title', 'artist', 
+        fieldnames = ['playlist_name', 'username', 'track_title', 'track_id', 'artist', 
                       'duration_ms', 'popularity', 'explicit', 'album', 
                       'release_date', 'label', 'danceability', 'energy',
                       'key', 'loudness', 'speechiness', 'acousticness', 'instrumentalness',
