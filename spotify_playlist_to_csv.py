@@ -62,6 +62,7 @@ def add_user_playlist(username):
                       'key', 'loudness', 'speechiness', 'acousticness', 'instrumentalness',
                       'liveness', 'tempo', 'time_signature']
         writer = csv.DictWriter(f, fieldnames)
+        writer.writeheader()
         playlists = sp.user_playlists(username)
 
         print("Getting data from " + username + "'s playlists:")
